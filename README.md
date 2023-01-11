@@ -1,6 +1,7 @@
 # Creation of an objective function for the RNA folding problem
 
 ============
+
 For a given ribonucleotide chain , the RNA folding problem consist in finding the native fold among the large number of possible conformation.The native fold being the one with the lowest Gibbs free energy,the objective function should be an estimator of this energy
 
 The script will  * Train the objective function using interactomic distance distribution computed from a dataset of experimentally determined 3D structures
@@ -13,8 +14,8 @@ The script will  * Train the objective function using interactomic distance dist
  ---
  # Training script : Compute interactomic distance from a given set of PDB files : 
                      
-                      * only C3' atoms are taken into account
-                      * only 'intrachain' distances are considered
+            only C3' atoms are taken into account
+              only 'intrachain' distances are considered
                       * only consider residues separed by 3 position on the sequence
                       
                       * compute observed frequencies ( range of 0 to 20 Ångström of observing two residues i and j separared by a distance bin r is calculated as follows :
