@@ -22,7 +22,8 @@ puzzles dataset
 * only consider residues separed by 3 position on the sequence
                       
 * compute observed frequencies ( range of 0 to 20 Ångström of observing two residues i and j separared by a distance bin r is calculated as follows :
-                      $$ f_{i,j} ^{OBS}(r) = { N_{i,j}(r) \over N_{i,j} } $$
+
+$$ f_{i,j} ^{OBS}(r) = { N_{i,j}(r) \over N_{i,j} } $$
                       
 * compute reference frequency , different residue types are  indistinct X                    
  $$ f_{X,X} ^{REF}(r) = { N_{X,X}(r) \over N_{X,X}} $$
