@@ -1,6 +1,6 @@
 # Creation of an objective function for the RNA folding problem
 
-============
+ ---
 
 ## Context 
 
@@ -26,7 +26,7 @@ puzzles dataset
 
 $$ f_{i,j} ^{OBS}(r) = { N_{i,j}(r) \over N_{i,j} } $$
 
-Where N_{i,j}(r) is the count of i and j within the distance bin r and N_{i,j} is the count of i and j for all distance bins 
+Where $$ N_{i,j}(r) $$ is the count of i and j within the distance bin r and $$ N_{i,j} $$ is the count of i and j for all distance bins 
                       
 * Compute reference frequency , different residue types are  indistinct X                    
  
