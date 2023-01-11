@@ -26,9 +26,11 @@ puzzles dataset
 $$ f_{i,j} ^{OBS}(r) = { N_{i,j}(r) \over N_{i,j} } $$
                       
 * compute reference frequency , different residue types are  indistinct X                    
+ 
  $$ f_{X,X} ^{REF}(r) = { N_{X,X}(r) \over N_{X,X}} $$
 
 * compute log-ratio of the two frequency (score of pseudo energy)
+
 $$ u_{i,j}(r) = { -log \left( f _{i,j} ^{OBS}(r) \over f_{i,j} ^{REF}(r) \right) } $$
 
 
