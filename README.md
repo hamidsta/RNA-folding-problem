@@ -1,2 +1,2 @@
-# RNA-folding-problem
-Objectif function for the RNA folding problem
+# RNA-folding-prissouxoblem
+iObjectif function for the RNA folding problem
