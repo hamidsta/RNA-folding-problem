@@ -52,7 +52,7 @@ $ git clone https://github.com/hamidsta/RNA-folding-problem.git
 Install the required dependency
 
 ```bash
-$ pip install -r dependency.txt
+$ pip install -r requirement.txt
 ```
 
 ---
