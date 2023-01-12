@@ -73,7 +73,8 @@ $ python main.py
 The data can be downloaded  from https://www.rcsb.org/ 
 Make sure the data are stored in an empty folder
 
-PDB_Dataset contain two RNA PDB files to run the script
+dataset_training contain a set of  RNA PDB files to run the script
+dataset_test contain one pdb file to run script linear interpolation
 
 
 
