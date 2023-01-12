@@ -57,8 +57,8 @@ $ pip install -r dependency.txt
 ---
 # Running the script
 
-In order to run the code , make sure that utils.py and main.py are located in the **SAME FOLDER**.
-Main.py allow an interactive usage for the utilisator. I advise to check --help to understand how to make right use of the script .
+In order to run the code , make sure that *utils.py* and *main.py* are located in the **SAME FOLDER**.
+*Main.py* allow an interactive usage for the utilisater. I advise to check --help to understand how to make right use of the script .
 Script only take **RNA STRUCTURE** 
 
 Run the script on the terminal ( or you can just double click on the file )
