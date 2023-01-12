@@ -1,4 +1,5 @@
-# Creation of an objective function for the RNA folding problem
+# Creation of an objective function for the RNA folding problem  
+<sub>School project M2 GENIOMHE paris saclay - Structural Bioinformatics - speaker Guillaume Postic</sub>
 
  ---
 
