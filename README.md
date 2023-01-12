@@ -18,7 +18,7 @@ puzzles dataset
  ---
  ###  Training script : Compute interactomic distance from a given set of PDB files : 
                      
-* Only C3 atoms are taken into account
+* Only C3' atoms are taken into account
 * Only  intrachain distances are considered
 * Only consider residues separed by 3 position on the sequence
                       
@@ -26,7 +26,7 @@ puzzles dataset
 
 $$ f_{i,j} ^{OBS}(r) = { N_{i,j}(r) \over N_{i,j} } $$
 
-Where $  N_{i,j}(r) $ is the count of i and j within the distance bin r and $$ N_{i,j} $$ is the count of i and j for all distance bins 
+   Where $N_{i,j}(r)$ is the count of i and j within the distance bin r and $N_{i,j}$ is the count of i and j for all distance bins 
                       
 * Compute reference frequency , different residue types are  indistinct X                    
  
@@ -57,7 +57,7 @@ $ pip install -r dependency.txt
 ---
 # Running the script
 
-In order to run the code , make sure that utils.py and main.py are located in the SAME FOLDER.
+In order to run the code , make sure that utils.py and main.py are located in the **same folder**.
 Main.py allow an interactive usage for the utilisator. I advise to check --help to understand how to make right use of the script .
 Script only take RNA STRUCTURE 
 
