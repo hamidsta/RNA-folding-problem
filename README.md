@@ -50,6 +50,7 @@ Clone the repository :
 $ git clone https://github.com/hamidsta/RNA-folding-problem.git
 ```
 Install the required dependency
+<sub>As the script mostly use standard python library , it is not necessary to create a new env</sub>
 
 ```bash
 $ pip install -r requirement.txt
