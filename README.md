@@ -49,8 +49,7 @@ Clone the repository :
 ```bash
 $ git clone https://github.com/hamidsta/RNA-folding-problem.git
 ```
-Install the required dependency
-<sub>As the script mostly use standard python library , it is not necessary to create a new env</sub>
+Install the required dependency. As the script mostly use standard python library , it is not necessary to create a new environnement </sub>
 
 ```bash
 $ pip install -r requirement.txt
@@ -67,6 +66,12 @@ Run the script on the terminal ( or you can just double click on the file )
 
 ```bash
 $ python main.py
+```
+
+Check script information
+
+```bash
+$ python main.py --help
 ```
 
 ---
